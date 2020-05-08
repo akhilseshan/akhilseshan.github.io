@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on My Portfolio</title>
-    <link>https://akhilseshan.github.io/tags/</link>
+    <link>http://akhilseshan.co/tags/</link>
     <description>Recent content in Tags on My Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 17 Jan 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://akhilseshan.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://akhilseshan.co/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>development</title>
-      <link>https://akhilseshan.github.io/tags/development/</link>
+      <link>http://akhilseshan.co/tags/development/</link>
       <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://akhilseshan.github.io/tags/development/</guid>
+      <guid>http://akhilseshan.co/tags/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>https://akhilseshan.github.io/tags/hugo/</link>
+      <link>http://akhilseshan.co/tags/hugo/</link>
       <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://akhilseshan.github.io/tags/hugo/</guid>
+      <guid>http://akhilseshan.co/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>themes</title>
-      <link>https://akhilseshan.github.io/tags/themes/</link>
+      <link>http://akhilseshan.co/tags/themes/</link>
       <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://akhilseshan.github.io/tags/themes/</guid>
+      <guid>http://akhilseshan.co/tags/themes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>go</title>
-      <link>https://akhilseshan.github.io/tags/go/</link>
+      <link>http://akhilseshan.co/tags/go/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://akhilseshan.github.io/tags/go/</guid>
+      <guid>http://akhilseshan.co/tags/go/</guid>
       <description></description>
     </item>
     
     <item>
       <title>golang</title>
-      <link>https://akhilseshan.github.io/tags/golang/</link>
+      <link>http://akhilseshan.co/tags/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://akhilseshan.github.io/tags/golang/</guid>
+      <guid>http://akhilseshan.co/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>templates</title>
-      <link>https://akhilseshan.github.io/tags/templates/</link>
+      <link>http://akhilseshan.co/tags/templates/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://akhilseshan.github.io/tags/templates/</guid>
+      <guid>http://akhilseshan.co/tags/templates/</guid>
       <description></description>
     </item>
     
