@@ -1427,7 +1427,7 @@ Liquid::Template.register_tag(&#39;image&#39;, Jekyll::ImageTag)
     </item>
     
     <item>
-      <title>Contact</title>
+      <title>Contact Me</title>
       <link>http://akhilseshan.co/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1447,7 +1447,7 @@ Liquid::Template.register_tag(&#39;image&#39;, Jekyll::ImageTag)
     </item>
     
     <item>
-      <title>Projects</title>
+      <title>My Projects</title>
       <link>http://akhilseshan.co/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
