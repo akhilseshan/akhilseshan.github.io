@@ -21,16 +21,16 @@
     </item>
     
     <item>
-      <title>Contato</title>
-      <link>http://akhilseshan.co/pt-br/contact/</link>
+      <title>എന്നെ കുറിച്ച്</title>
+      <link>http://akhilseshan.co/pt-br/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://akhilseshan.co/pt-br/contact/</guid>
+      <guid>http://akhilseshan.co/pt-br/about/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Projetos</title>
+      <title>പ്രോജക്ടുകൾ</title>
       <link>http://akhilseshan.co/pt-br/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -39,11 +39,11 @@
     </item>
     
     <item>
-      <title>Sobre Hugo</title>
-      <link>http://akhilseshan.co/pt-br/about/</link>
+      <title>ബന്ധപ്പെടാൻ</title>
+      <link>http://akhilseshan.co/pt-br/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://akhilseshan.co/pt-br/about/</guid>
+      <guid>http://akhilseshan.co/pt-br/contact/</guid>
       <description></description>
     </item>
     

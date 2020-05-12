@@ -93,34 +93,6 @@
   </url>
   
   <url>
-    <loc>http://akhilseshan.co/pt-br/contact/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://akhilseshan.co/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="http://akhilseshan.co/pt-br/contact/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://akhilseshan.co/pt-br/projects/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://akhilseshan.co/projects/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="http://akhilseshan.co/pt-br/projects/"
-                />
-  </url>
-  
-  <url>
     <loc>http://akhilseshan.co/pt-br/series/</loc>
     <xhtml:link
                 rel="alternate"
@@ -145,6 +117,34 @@
                 rel="alternate"
                 hreflang="pt-br"
                 href="http://akhilseshan.co/pt-br/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://akhilseshan.co/pt-br/projects/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://akhilseshan.co/projects/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="http://akhilseshan.co/pt-br/projects/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://akhilseshan.co/pt-br/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://akhilseshan.co/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="http://akhilseshan.co/pt-br/contact/"
                 />
   </url>
   
