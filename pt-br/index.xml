@@ -35,7 +35,63 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://akhilseshan.co/pt-br/projects/</guid>
-      <description></description>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;പ്രൊജക്റ്റ്ന്റെ പേര്&lt;/th&gt;
+&lt;th&gt;ഉപയോഗിച്ച ടെക്നോളോജിസ്&lt;/th&gt;
+&lt;th&gt;ലിങ്കുകൾ&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Malayalam Handwriting Recognition&lt;/td&gt;
+&lt;td&gt;OpenCV, Fastai, NumPy, Python&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/akhilseshan/MalayalamHandwritingRecognition&#34;&gt;GitHub&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Amazon Scrapper&lt;/td&gt;
+&lt;td&gt;Selenium, Python&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/akhilseshan/selenium_amazon&#34;&gt;GitHub&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;URL Shortener&lt;/td&gt;
+&lt;td&gt;Node.js, Express.js, MongoDB&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/akhilseshan/url_shortener&#34;&gt;GitHub&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;OpenFitness&lt;/td&gt;
+&lt;td&gt;HTML/CSS&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/akhilseshan/openfitness&#34;&gt;GitHub&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;UniversalScheduler&lt;/td&gt;
+&lt;td&gt;Node.js, Express.js, MongoDB, EJS&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/akhilseshan/universalscheduler&#34;&gt;GitHub&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Blood Donation Portal&lt;/td&gt;
+&lt;td&gt;Node.js, Express.js, MongoDB&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/akhilseshan/blood_donation_portal&#34;&gt;GitHub&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Audio Visualizer&lt;/td&gt;
+&lt;td&gt;HTML/CSS&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/akhilseshan/audiovisualizer&#34;&gt;GitHub&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Placement Info&lt;/td&gt;
+&lt;td&gt;React.js, Express.js, Node.js&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/akhilseshan/placement-info&#34;&gt;GitHub&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Directory App&lt;/td&gt;
+&lt;td&gt;Node.js, Express.js, MongoDB&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/akhilseshan/Directory_app&#34;&gt;GitHub&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
     </item>
     
     <item>
@@ -44,7 +100,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://akhilseshan.co/pt-br/contact/</guid>
-      <description></description>
+      <description>&lt;p&gt;ഇമെയിൽ : &lt;a href=&#34;mailto:akhilseshan.mec@gmail.com&#34;&gt;akhilseshan.mec@gmail.com&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>
