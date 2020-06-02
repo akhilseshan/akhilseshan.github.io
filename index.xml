@@ -1423,7 +1423,8 @@ Liquid::Template.register_tag(&#39;image&#39;, Jekyll::ImageTag)
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://akhilseshan.co/about/</guid>
-      <description></description>
+      <description>&lt;p&gt;I am a Final Year Computer Science and Engineering student at Model Engineering College,Thrikkakkara passionate in Deep Learning and Web Development apart from regularacademics. My interests include language localization, language modeling and doing classifier problems. Languages I used to work includes Python, JavaScript and C.&lt;/p&gt;
+</description>
     </item>
     
     <item>
