@@ -3,148 +3,148 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://akhilseshan.co/pt-br/categories/blog/</loc>
+    <loc>https://akhilseshan.github.io/pt-br/categories/blog/</loc>
     <lastmod>2018-12-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://akhilseshan.co/pt-br/categories/</loc>
+    <loc>https://akhilseshan.github.io/pt-br/categories/</loc>
     <lastmod>2018-12-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://akhilseshan.co/categories/"
+                href="https://akhilseshan.github.io/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://akhilseshan.co/pt-br/categories/"
+                href="https://akhilseshan.github.io/pt-br/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://akhilseshan.co/pt-br/posts/dummy/</loc>
+    <loc>https://akhilseshan.github.io/pt-br/posts/dummy/</loc>
     <lastmod>2018-12-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://akhilseshan.co/pt-br/tags/hugo/</loc>
+    <loc>https://akhilseshan.github.io/pt-br/tags/hugo/</loc>
     <lastmod>2018-12-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://akhilseshan.co/tags/hugo/"
+                href="https://akhilseshan.github.io/tags/hugo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://akhilseshan.co/pt-br/tags/hugo/"
+                href="https://akhilseshan.github.io/pt-br/tags/hugo/"
                 />
   </url>
   
   <url>
-    <loc>https://akhilseshan.co/pt-br/tags/i18n/</loc>
+    <loc>https://akhilseshan.github.io/pt-br/tags/i18n/</loc>
     <lastmod>2018-12-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://akhilseshan.co/pt-br/posts/</loc>
+    <loc>https://akhilseshan.github.io/pt-br/posts/</loc>
     <lastmod>2018-12-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://akhilseshan.co/posts/"
+                href="https://akhilseshan.github.io/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://akhilseshan.co/pt-br/posts/"
+                href="https://akhilseshan.github.io/pt-br/posts/"
                 />
   </url>
   
   <url>
-    <loc>https://akhilseshan.co/pt-br/tags/</loc>
+    <loc>https://akhilseshan.github.io/pt-br/tags/</loc>
     <lastmod>2018-12-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://akhilseshan.co/tags/"
+                href="https://akhilseshan.github.io/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://akhilseshan.co/pt-br/tags/"
+                href="https://akhilseshan.github.io/pt-br/tags/"
                 />
   </url>
   
   <url>
-    <loc>https://akhilseshan.co/pt-br/</loc>
+    <loc>https://akhilseshan.github.io/pt-br/</loc>
     <lastmod>2018-12-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://akhilseshan.co/"
+                href="https://akhilseshan.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://akhilseshan.co/pt-br/"
+                href="https://akhilseshan.github.io/pt-br/"
                 />
   </url>
   
   <url>
-    <loc>https://akhilseshan.co/pt-br/series/</loc>
+    <loc>https://akhilseshan.github.io/pt-br/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://akhilseshan.co/series/"
+                href="https://akhilseshan.github.io/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://akhilseshan.co/pt-br/series/"
+                href="https://akhilseshan.github.io/pt-br/series/"
                 />
   </url>
   
   <url>
-    <loc>https://akhilseshan.co/pt-br/about/</loc>
+    <loc>https://akhilseshan.github.io/pt-br/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://akhilseshan.co/about/"
+                href="https://akhilseshan.github.io/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://akhilseshan.co/pt-br/about/"
+                href="https://akhilseshan.github.io/pt-br/about/"
                 />
   </url>
   
   <url>
-    <loc>https://akhilseshan.co/pt-br/projects/</loc>
+    <loc>https://akhilseshan.github.io/pt-br/projects/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://akhilseshan.co/projects/"
+                href="https://akhilseshan.github.io/projects/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://akhilseshan.co/pt-br/projects/"
+                href="https://akhilseshan.github.io/pt-br/projects/"
                 />
   </url>
   
   <url>
-    <loc>https://akhilseshan.co/pt-br/contact/</loc>
+    <loc>https://akhilseshan.github.io/pt-br/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://akhilseshan.co/contact/"
+                href="https://akhilseshan.github.io/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://akhilseshan.co/pt-br/contact/"
+                href="https://akhilseshan.github.io/pt-br/contact/"
                 />
   </url>
   

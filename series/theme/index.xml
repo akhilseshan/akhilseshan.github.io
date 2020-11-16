@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Theme on My Portfolio</title>
-    <link>https://akhilseshan.co/series/theme/</link>
+    <link>https://akhilseshan.github.io/series/theme/</link>
     <description>Recent content in Theme on My Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 20 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://akhilseshan.co/series/theme/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://akhilseshan.github.io/series/theme/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Render LaTeX using KaTeX</title>
-      <link>https://akhilseshan.co/posts/render-latex-using-katex/</link>
+      <link>https://akhilseshan.github.io/posts/render-latex-using-katex/</link>
       <pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://akhilseshan.co/posts/render-latex-using-katex/</guid>
+      <guid>https://akhilseshan.github.io/posts/render-latex-using-katex/</guid>
       <description>&lt;p&gt;Enable katex by adding &lt;code&gt;katex = &amp;quot;true&amp;quot;&lt;/code&gt; to the &lt;a href=&#34;https://gohugo.io/content-management/front-matter/&#34;&gt;front matter&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;color:#f00&#34;&gt;+++&lt;/span&gt;
 katex = &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;true&amp;#34;&lt;/span&gt;
@@ -38,10 +38,10 @@ $$&lt;/p&gt;
     
     <item>
       <title>Theme Demo</title>
-      <link>https://akhilseshan.co/posts/theme-demo/</link>
+      <link>https://akhilseshan.github.io/posts/theme-demo/</link>
       <pubDate>Sun, 08 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://akhilseshan.co/posts/theme-demo/</guid>
+      <guid>https://akhilseshan.github.io/posts/theme-demo/</guid>
       <description>&lt;h2 id=&#34;style-demo&#34;&gt;Style Demo&lt;/h2&gt;
 &lt;h1 id=&#34;h1-heading&#34;&gt;h1 Heading&lt;/h1&gt;
 &lt;h2 id=&#34;h2-heading&#34;&gt;h2 Heading&lt;/h2&gt;
@@ -62,22 +62,22 @@ $$&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;Heading&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;Another heading&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Heading&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Another heading&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;text&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;text&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;text&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;text&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;text&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;text&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;text&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;text&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;text&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;text&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;text&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;text&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -117,7 +117,7 @@ if you like.&lt;/p&gt;
 console.log(foo(&lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;5&lt;/span&gt;));
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;hugo-shortcode-for-figure&#34;&gt;Hugo shortcode for figure&lt;/h2&gt;
 &lt;figure&gt;
-    &lt;img src=&#34;https://akhilseshan.co/images/N90.jpg&#34;
+    &lt;img src=&#34;https://akhilseshan.github.io/images/N90.jpg&#34;
          alt=&#34;N90 nebula, &amp;amp;ldquo;New stars shed light on the past&amp;amp;rdquo; by ESA/Hubble&#34;/&gt; &lt;figcaption&gt;
             &lt;p&gt;N90 nebula, &amp;ldquo;New stars shed light on the past&amp;rdquo; by ESA/Hubble&lt;/p&gt;
         &lt;/figcaption&gt;
@@ -128,10 +128,10 @@ console.log(foo(&lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;5&lt;/sp
     
     <item>
       <title>Creating a New Theme</title>
-      <link>https://akhilseshan.co/posts/creating-a-new-theme/</link>
+      <link>https://akhilseshan.github.io/posts/creating-a-new-theme/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://akhilseshan.co/posts/creating-a-new-theme/</guid>
+      <guid>https://akhilseshan.github.io/posts/creating-a-new-theme/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.&lt;/p&gt;
 &lt;p&gt;We&amp;rsquo;ll start with creating a new site with a very basic template. Then we&amp;rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.&lt;/p&gt;
@@ -602,7 +602,7 @@ $
 :wq
 
 $
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Hugo uses the Go template engine. That engine scans the template files for commands which are enclosed between &amp;ldquo;{{&amp;rdquo; and &amp;ldquo;}}&amp;quot;. In our template, the commands are:&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Hugo uses the Go template engine. That engine scans the template files for commands which are enclosed between &amp;ldquo;{{&amp;rdquo; and &amp;ldquo;}}&amp;rdquo;. In our template, the commands are:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;range&lt;/li&gt;
 &lt;li&gt;.Title&lt;/li&gt;
@@ -790,7 +790,7 @@ i&amp;#39;m speechless
 -rw-rw-r--  1 mdhender  staff   358 Sep 27 15:08 public/post/first-post/index.html
 -rw-rw-r--  1 mdhender  staff     0 Sep 27 15:08 public/post/index.html
 -rw-rw-r--  1 mdhender  staff   342 Sep 27 15:08 public/post/second-post/index.html
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Notice that the page wasn&amp;rsquo;t created at the top level. It was created in a sub-directory named &amp;lsquo;about-time/&#39;. That name came from our slug. Hugo will use the slug to name the generated content. It&amp;rsquo;s a reasonable default, by the way, but we can learn a few things by fighting it for this file.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Notice that the page wasn&amp;rsquo;t created at the top level. It was created in a sub-directory named &amp;lsquo;about-time/&amp;rsquo;. That name came from our slug. Hugo will use the slug to name the generated content. It&amp;rsquo;s a reasonable default, by the way, but we can learn a few things by fighting it for this file.&lt;/p&gt;
 &lt;p&gt;One other thing. Take a look at the home page.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;$ cat public/index.html
 &amp;lt;!DOCTYPE html&amp;gt;

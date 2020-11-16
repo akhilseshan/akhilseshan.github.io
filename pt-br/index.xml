@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>എന്റെ പോർട്‌ഫോളിയോ</title>
-    <link>https://akhilseshan.co/pt-br/</link>
+    <link>https://akhilseshan.github.io/pt-br/</link>
     <description>Recent content on എന്റെ പോർട്‌ഫോളിയോ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 31 Dec 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://akhilseshan.co/pt-br/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://akhilseshan.github.io/pt-br/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dummy</title>
-      <link>https://akhilseshan.co/pt-br/posts/dummy/</link>
+      <link>https://akhilseshan.github.io/pt-br/posts/dummy/</link>
       <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://akhilseshan.co/pt-br/posts/dummy/</guid>
+      <guid>https://akhilseshan.github.io/pt-br/posts/dummy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>എന്നെ കുറിച്ച്</title>
-      <link>https://akhilseshan.co/pt-br/about/</link>
+      <link>https://akhilseshan.github.io/pt-br/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://akhilseshan.co/pt-br/about/</guid>
+      <guid>https://akhilseshan.github.io/pt-br/about/</guid>
       <description>&lt;p&gt;ഞാൻ ഗവഃ മോഡൽ എഞ്ചിനീയറിംഗ് കോളേജിലെ നാലാം വർഷ കമ്പ്യൂട്ടർ സയൻസ് ആൻഡ് എഞ്ചിനീയറിംഗ് വിദ്യാർത്ഥി ആണ്‌. മെഷീൻ ലേർണിംഗും വെബ് ടെവേലോപ്മെന്റും എന്റെ ഇഷ്ട മേഘലകളാകുന്നു. ഞാൻ ഭാഷ തദ്ദേശവത്കരണം ചെയ്യാൻ ഇഷ്ടപ്പെടുന്നു. പൈത്തൺ , ജാവാസ്ക്രിപ്റ്റ്, സി എന്നിവ ഞാൻ കൂടുതൽ ഉപയോഗിക്കുന്ന പ്രോഗ്രാമിങ് ഭാഷകളാകുന്നു.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>പ്രോജക്ടുകൾ</title>
-      <link>https://akhilseshan.co/pt-br/projects/</link>
+      <link>https://akhilseshan.github.io/pt-br/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://akhilseshan.co/pt-br/projects/</guid>
+      <guid>https://akhilseshan.github.io/pt-br/projects/</guid>
       <description>&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -97,10 +97,10 @@
     
     <item>
       <title>ബന്ധപ്പെടാൻ</title>
-      <link>https://akhilseshan.co/pt-br/contact/</link>
+      <link>https://akhilseshan.github.io/pt-br/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://akhilseshan.co/pt-br/contact/</guid>
+      <guid>https://akhilseshan.github.io/pt-br/contact/</guid>
       <description>&lt;p&gt;ഇമെയിൽ : &lt;a href=&#34;mailto:akhilseshan.mec@gmail.com&#34;&gt;akhilseshan.mec@gmail.com&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>

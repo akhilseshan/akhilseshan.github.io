@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>themes on My Portfolio</title>
-    <link>https://akhilseshan.co/tags/themes/</link>
+    <link>https://akhilseshan.github.io/tags/themes/</link>
     <description>Recent content in themes on My Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 17 Jan 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://akhilseshan.co/tags/themes/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://akhilseshan.github.io/tags/themes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo coder wiki</title>
-      <link>https://akhilseshan.co/posts/hugo-coder-wiki/</link>
+      <link>https://akhilseshan.github.io/posts/hugo-coder-wiki/</link>
       <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://akhilseshan.co/posts/hugo-coder-wiki/</guid>
+      <guid>https://akhilseshan.github.io/posts/hugo-coder-wiki/</guid>
       <description></description>
     </item>
     
     <item>
       <title>(Hu)go Template Primer</title>
-      <link>https://akhilseshan.co/posts/hugo-template-primer/</link>
+      <link>https://akhilseshan.github.io/posts/hugo-template-primer/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://akhilseshan.co/posts/hugo-template-primer/</guid>
+      <guid>https://akhilseshan.github.io/posts/hugo-template-primer/</guid>
       <description>&lt;p&gt;Hugo uses the excellent &lt;a href=&#34;http://golang.org/&#34;&gt;go&lt;/a&gt; &lt;a href=&#34;http://golang.org/pkg/html/template/&#34;&gt;html/template&lt;/a&gt; library for
 its template engine. It is an extremely lightweight engine that provides a very
 small amount of logic. In our experience that it is just the right amount of
@@ -63,7 +63,7 @@ functions.&lt;/p&gt;
 &lt;p&gt;Each go template has a struct (object) made available to it. In hugo each
 template is passed either a page or a node struct depending on which type of
 page you are rendering. More details are available on the
-&lt;a href=&#34;https://akhilseshan.co/layout/variables&#34;&gt;variables&lt;/a&gt; page.&lt;/p&gt;
+&lt;a href=&#34;https://akhilseshan.github.io/layout/variables&#34;&gt;variables&lt;/a&gt; page.&lt;/p&gt;
 &lt;p&gt;A variable is accessed by referencing the variable name.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;title&amp;gt;{{ .Title }}&amp;lt;/title&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
@@ -74,7 +74,7 @@ page you are rendering. More details are available on the
 &lt;h2 id=&#34;functions&#34;&gt;Functions&lt;/h2&gt;
 &lt;p&gt;Go template ship with a few functions which provide basic functionality. The go
 template system also provides a mechanism for applications to extend the
-available functions with their own. &lt;a href=&#34;https://akhilseshan.co/layout/functions&#34;&gt;Hugo template
+available functions with their own. &lt;a href=&#34;https://akhilseshan.github.io/layout/functions&#34;&gt;Hugo template
 functions&lt;/a&gt; provide some additional functionality we believe
 are useful for building websites. Functions are called by using their name
 followed by the required parameters separated by spaces. Template
@@ -205,7 +205,7 @@ type (supported by your front matter/config format) and use them however
 you want to inside of your templates.&lt;/p&gt;
 &lt;h2 id=&#34;using-content-page-parameters&#34;&gt;Using Content (page) Parameters&lt;/h2&gt;
 &lt;p&gt;In each piece of content you can provide variables to be used by the
-templates. This happens in the &lt;a href=&#34;https://akhilseshan.co/content/front-matter&#34;&gt;front matter&lt;/a&gt;.&lt;/p&gt;
+templates. This happens in the &lt;a href=&#34;https://akhilseshan.github.io/content/front-matter&#34;&gt;front matter&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;An example of this is used in this documentation site. Most of the pages
 benefit from having the table of contents provided. Sometimes the TOC just
 doesn&amp;rsquo;t make a lot of sense. We&amp;rsquo;ve defined a variable in our front matter
@@ -231,10 +231,10 @@ notoc: true
 &lt;p&gt;In your top-level configuration file (eg, &lt;code&gt;config.yaml&lt;/code&gt;) you can define site
 parameters, which are values which will be available to you in chrome.&lt;/p&gt;
 &lt;p&gt;For instance, you might declare:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;params&lt;/span&gt;:
-  &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;CopyrightHTML&lt;/span&gt;: &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;Copyright &amp;amp;#xA9; 2013 John Doe. All Rights Reserved.&amp;#34;&lt;/span&gt;
-  &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;TwitterUser&lt;/span&gt;: &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;spf13&amp;#34;&lt;/span&gt;
-  &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;SidebarRecentLimit&lt;/span&gt;: &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;5&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;params&lt;/span&gt;:
+  &lt;span style=&#34;font-weight:bold&#34;&gt;CopyrightHTML&lt;/span&gt;: &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;Copyright &amp;amp;#xA9; 2013 John Doe. All Rights Reserved.&amp;#34;&lt;/span&gt;
+  &lt;span style=&#34;font-weight:bold&#34;&gt;TwitterUser&lt;/span&gt;: &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;spf13&amp;#34;&lt;/span&gt;
+  &lt;span style=&#34;font-weight:bold&#34;&gt;SidebarRecentLimit&lt;/span&gt;: &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;5&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Within a footer layout, you might then declare a &lt;code&gt;&amp;lt;footer&amp;gt;&lt;/code&gt; which is only
 provided if the &lt;code&gt;CopyrightHTML&lt;/code&gt; parameter is provided, and if it is given,
 you would declare it to be HTML-safe, so that the HTML entity is not escaped
