@@ -20,10 +20,11 @@ This document is a brief primer on using go templates."/>
 <meta property="og:description" content="Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
 This document is a brief primer on using go templates." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://akhilseshan.github.io/posts/hugo-template-primer/" />
+<meta property="og:url" content="https://akhilseshan.github.io/posts/hugo-template-primer/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2014-04-02T00:00:00+00:00" />
 <meta property="article:modified_time" content="2014-04-02T00:00:00+00:00" />
-
+<meta property="og:see_also" content="https://akhilseshan.github.io/posts/hugoisforlovers/" /><meta property="og:see_also" content="https://akhilseshan.github.io/posts/migrate-from-jekyll/" />
+<meta property="og:see_also" content="https://akhilseshan.github.io/posts/render-latex-using-katex/" /><meta property="og:see_also" content="https://akhilseshan.github.io/posts/hugo-coder-wiki/" /><meta property="og:see_also" content="https://akhilseshan.github.io/posts/theme-demo/" /><meta property="og:see_also" content="https://akhilseshan.github.io/posts/creating-a-new-theme/" /><meta property="og:see_also" content="https://akhilseshan.github.io/posts/hugoisforlovers/" />
 
 
 
@@ -65,7 +66,7 @@ This document is a brief primer on using go templates." />
     <link rel="icon" type="image/png" href="https://akhilseshan.github.io/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://akhilseshan.github.io/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.77.0" />
+    <meta name="generator" content="Hugo 0.89.3" />
   </head>
 
   
@@ -352,7 +353,7 @@ benefit from having the table of contents provided. Sometimes the TOC just
 doesn&rsquo;t make a lot of sense. We&rsquo;ve defined a variable in our front matter
 of some pages to turn off the TOC from being displayed.</p>
 <p>Here is the example front matter:</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">---
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">---
 title: &#34;Permalinks&#34;
 date: &#34;2013-11-18&#34;
 aliases:
@@ -372,7 +373,7 @@ notoc: true
 <p>In your top-level configuration file (eg, <code>config.yaml</code>) you can define site
 parameters, which are values which will be available to you in chrome.</p>
 <p>For instance, you might declare:</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="font-weight:bold">params</span>:
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="font-weight:bold">params</span>:
   <span style="font-weight:bold">CopyrightHTML</span>: <span style="color:#0ff;font-weight:bold">&#34;Copyright &amp;#xA9; 2013 John Doe. All Rights Reserved.&#34;</span>
   <span style="font-weight:bold">TwitterUser</span>: <span style="color:#0ff;font-weight:bold">&#34;spf13&#34;</span>
   <span style="font-weight:bold">SidebarRecentLimit</span>: <span style="color:#ff0;font-weight:bold">5</span>
@@ -381,20 +382,20 @@ provided if the <code>CopyrightHTML</code> parameter is provided, and if it is g
 you would declare it to be HTML-safe, so that the HTML entity is not escaped
 again.  This would let you easily update just your top-level config file each
 January 1st, instead of hunting through your templates.</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">{{if .Site.Params.CopyrightHTML}}&lt;footer&gt;
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">{{if .Site.Params.CopyrightHTML}}&lt;footer&gt;
 &lt;div class=&#34;text-center&#34;&gt;{{.Site.Params.CopyrightHTML | safeHtml}}&lt;/div&gt;
 &lt;/footer&gt;{{end}}
 </code></pre></div><p>An alternative way of writing the &ldquo;if&rdquo; and then referencing the same value
 is to use &ldquo;with&rdquo; instead. With rebinds the context <code>.</code> within its scope,
 and skips the block if the variable is absent:</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">{{with .Site.Params.TwitterUser}}&lt;span class=&#34;twitter&#34;&gt;
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">{{with .Site.Params.TwitterUser}}&lt;span class=&#34;twitter&#34;&gt;
 &lt;a href=&#34;https://twitter.com/{{.}}&#34; rel=&#34;author&#34;&gt;
 &lt;img src=&#34;/images/twitter.png&#34; width=&#34;48&#34; height=&#34;48&#34; title=&#34;Twitter: {{.}}&#34;
  alt=&#34;Twitter&#34;&gt;&lt;/a&gt;
 &lt;/span&gt;{{end}}
 </code></pre></div><p>Finally, if you want to pull &ldquo;magic constants&rdquo; out of your layouts, you can do
 so, such as in this example:</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">&lt;nav class=&#34;recent&#34;&gt;
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">&lt;nav class=&#34;recent&#34;&gt;
   &lt;h1&gt;Recent Posts&lt;/h1&gt;
   &lt;ul&gt;{{range first .Site.Params.SidebarRecentLimit .Site.Recent}}
     &lt;li&gt;&lt;a href=&#34;{{.RelPermalink}}&#34;&gt;{{.Title}}&lt;/a&gt;&lt;/li&gt;
