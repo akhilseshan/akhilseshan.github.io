@@ -1,204 +1,710 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Language" content="en">
+  <meta name="author" content="Akhil Seshan">
+  <meta name="description" content="Akhil Seshan — Senior Software Engineer at FactSet. Specializing in Generative AI, Large Language Models (LLMs), Deep Learning, and Scalable Backend Systems.">
+  <meta name="keywords" content="Akhil Seshan, Senior Software Engineer, FactSet, Generative AI, LLM, Deep Learning, Go, Python, PyTorch, Thodupuzha, Kerala">
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Language" content="en">
+  <!-- Open Graph / Social Cards -->
+  <meta property="og:title" content="Akhil Seshan — Senior Software Engineer (GenAI & Systems)">
+  <meta property="og:description" content="Senior Software Engineer at FactSet specializing in Generative AI, Large Language Models, and high-scale distributed systems.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://akhilseshan.github.io/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Akhil Seshan — Senior Software Engineer (GenAI & Systems)">
+  <meta name="twitter:description" content="Senior Software Engineer at FactSet specializing in Generative AI, Large Language Models, and high-scale distributed systems.">
 
-    <meta name="author" content="Akhil Seshan">
-    <meta name="description" content="Akhil Seshan&#39;s personal website">
-    <meta name="keywords" content="blog,developer,personal">
+  <title>Akhil Seshan — Senior Software Engineer (GenAI & Systems)</title>
+  <link rel="canonical" href="https://akhilseshan.github.io/">
 
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="My Portfolio"/>
-<meta name="twitter:description" content="Akhil Seshan&#39;s personal website"/>
+  <!-- Fonts: Space Grotesk, Inter, Space Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700;800&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
-    <meta property="og:title" content="My Portfolio" />
-<meta property="og:description" content="Akhil Seshan&#39;s personal website" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://akhilseshan.github.io/" />
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
 
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/swiss.css">
+</head>
 
+<body>
+  <!-- Interactive Antigravity Canvas & Architectural Grid -->
+  <canvas id="antigravity-canvas"></canvas>
+  <div class="architectural-grid" aria-hidden="true"></div>
+
+  <!-- Page Shell -->
+  <div class="page-shell">
     
-      <base href="https://akhilseshan.github.io/">
-    
-    <title>My Portfolio</title>
+    <!-- Top Navigation Bar -->
+    <nav class="swiss-nav" aria-label="Main Navigation">
+      <div class="nav-container">
+        <a href="#hero" class="brand-mark" aria-label="Akhil Seshan Home">
+          <div class="brand-logo">AS</div>
+          <div class="brand-info">
+            <span class="brand-name scramble-target">Akhil Seshan</span>
+            <span class="brand-role">Senior Software Engineer &bull; GenAI</span>
+          </div>
+        </a>
 
-    
-      <link rel="canonical" href="https://akhilseshan.github.io/">
-    
+        <div class="nav-actions-group">
+          <button type="button" class="nav-cmd-trigger cmd-trigger-btn" aria-label="Open Command Palette" title="Command Palette (Cmd+K)">
+            <i class="fa-solid fa-terminal"></i> <kbd>⌘K</kbd>
+          </button>
+          <button class="mobile-toggle" id="mobile-toggle-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
-
-    
-      
-      
-      <link rel="stylesheet" href="https://akhilseshan.github.io/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
-    
-
-    
-
-    
-      
-        
-        
-        <link rel="stylesheet" href="https://akhilseshan.github.io/css/coder-dark.min.e78e80fc3a585a4d1c8fc7f58623b6ff852411e38431a9cd1792877ecaa160f6.css" integrity="sha256-546A/DpYWk0cj8f1hiO2/4UkEeOEManNF5KHfsqhYPY=" crossorigin="anonymous" media="screen" />
-      
-    
-
-    
-
-    
-
-    <link rel="icon" type="image/png" href="https://akhilseshan.github.io/images/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="https://akhilseshan.github.io/images/favicon-16x16.png" sizes="16x16">
-
-    <link rel="alternate" type="application/rss+xml" href="https://akhilseshan.github.io/index.xml" title="My Portfolio" />
-    <meta name="generator" content="Hugo 0.89.3" />
-  </head>
-
-  
-  
-    
-  
-  <body class="colorscheme-dark">
-    <main class="wrapper">
-      <nav class="navigation">
-  <section class="container">
-    <a class="navigation-title" href="https://akhilseshan.github.io/">
-      My Portfolio
-    </a>
-    
-    <input type="checkbox" id="menu-toggle" />
-    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
-    <ul class="navigation-list">
-      
-        
-          <li class="navigation-item">
-            <a class="navigation-link" href="https://akhilseshan.github.io/about/">About</a>
-          </li>
-        
-          <li class="navigation-item">
-            <a class="navigation-link" href="https://akhilseshan.github.io/projects/">Projects</a>
-          </li>
-        
-          <li class="navigation-item">
-            <a class="navigation-link" href="https://akhilseshan.github.io/contact/">Contact me</a>
-          </li>
-        
-      
-      
-        
-        
-        
-          
-            
-              <li class="navigation-item menu-separator">
-                <span>|</span>
-              </li>
-              
-            
-            <li class="navigation-item">
-              <a href="https://akhilseshan.github.io/pt-br/">മലയാളം</a>
-            </li>
-          
-        
-      
-    </ul>
-    
-  </section>
-</nav>
-
-
-      <div class="content">
-        
-  <section class="container centered">
-  <div class="about">
-    
-      
-        <div class="avatar"><img src="https://akhilseshan.github.io/images/0.jpeg" alt="avatar"></div>
-      
-    
-    
-    <h1>Akhil Seshan</h1>
-    <h2>Software Engineer, FactSet</h2>
-    
-    <ul>
-      
-        
+        <ul class="nav-links" id="nav-links">
           <li>
-            <a href="https://github.com/akhilseshan/" aria-label="Github"   >
-              <i class="fab fa-github" aria-hidden="true"></i>
+            <a href="#about" class="nav-link">
+              <span class="nav-idx">01</span> About
             </a>
           </li>
-        
-      
-        
           <li>
-            <a href="https://gitlab.com/akhilseshan/" aria-label="Gitlab"   >
-              <i class="fab fa-gitlab" aria-hidden="true"></i>
+            <a href="#experience" class="nav-link">
+              <span class="nav-idx">02</span> Experience
             </a>
           </li>
-        
-      
-        
           <li>
-            <a href="https://twitter.com/seshanakhil/" aria-label="Twitter"   >
-              <i class="fab fa-twitter" aria-hidden="true"></i>
+            <a href="#projects" class="nav-link">
+              <span class="nav-idx">03</span> Projects
             </a>
           </li>
-        
-      
-        
           <li>
-            <a href="https://www.linkedin.com/in/akhil-seshan-043a01a4/" aria-label="LinkedIn"   >
-              <i class="fab fa-linkedin" aria-hidden="true"></i>
+            <a href="#stack" class="nav-link">
+              <span class="nav-idx">04</span> Arsenal
             </a>
           </li>
-        
-      
-        
           <li>
-            <a href="https://medium.com/@akhil_seshan" aria-label="Medium"   >
-              <i class="fab fa-medium" aria-hidden="true"></i>
+            <a href="#perspective" class="nav-link">
+              <span class="nav-idx">05</span> Visuals
             </a>
           </li>
-        
-      
-    </ul>
-    
-  </div>
-</section>
-
-
+          <li>
+            <a href="#contact" class="nav-link">
+              <span class="nav-idx">06</span> Contact
+            </a>
+          </li>
+          <li>
+            <button type="button" class="nav-cmd-trigger cmd-trigger-btn" aria-label="Open Command Palette">
+              <i class="fa-solid fa-terminal"></i> <kbd>⌘K</kbd>
+            </button>
+          </li>
+        </ul>
       </div>
+    </nav>
 
+    <!-- Main Content Flow -->
+    <main>
       
+      <!-- HERO SECTION -->
+      <section id="hero" class="hero-section">
+        <span class="crosshair-tl">+</span>
+        <span class="crosshair-tr">+</span>
+        <span class="crosshair-bl">+</span>
+        <span class="crosshair-br">+</span>
+
+        <div class="hero-pill-badge">
+          <span class="status-indicator" aria-hidden="true"></span>
+          Generative AI &bull; Large Language Models &bull; Deep Learning
+        </div>
+
+        <h1 class="hero-title">
+          <span class="scramble-target">Akhil Seshan</span>
+          <span class="title-accent">Senior Software Engineer at FactSet</span>
+        </h1>
+
+        <p class="hero-lead">
+          Senior Software Engineer at <strong>FactSet</strong> building greenfield <strong>Generative AI</strong> architectures, high-availability <strong>Go backend microservices</strong> for LLMs, and intelligent AI assistants for portfolio analytics. Focused on deep learning, prompt reliability, and capturing visual narratives through <strong>travel & photography</strong>.
+        </p>
+
+        <div class="hero-tags-row">
+          <span class="tag-box">[ Generative AI ]</span>
+          <span class="tag-box">[ Large Language Models ]</span>
+          <span class="tag-box">[ Deep Learning ]</span>
+          <span class="tag-box">[ Go Microservices ]</span>
+          <span class="tag-box">[ Python ]</span>
+          <span class="tag-box">[ Weaviate / Vector DB ]</span>
+          <span class="tag-box">[ Model Context Protocol ]</span>
+        </div>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn-swiss-primary">
+            Selected Works <i class="fa-solid fa-arrow-down-long"></i>
+          </a>
+          <a href="#experience" class="btn-swiss-outline">
+            Experience Timeline <i class="fa-solid fa-arrow-down-long"></i>
+          </a>
+          <a href="#contact" class="btn-swiss-outline">
+            Initiate Contact <i class="fa-solid fa-arrow-right-long"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/akhil-seshan/" target="_blank" rel="noopener noreferrer" class="btn-swiss-outline" aria-label="LinkedIn Profile">
+            <i class="fa-brands fa-linkedin"></i> LinkedIn
+          </a>
+          <a href="https://github.com/akhilseshan" target="_blank" rel="noopener noreferrer" class="btn-swiss-outline" aria-label="GitHub Profile">
+            <i class="fa-brands fa-github"></i> GitHub
+          </a>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section id="about" class="reveal-on-scroll">
+        <span class="crosshair-tl">+</span>
+        <span class="crosshair-tr">+</span>
+        <span class="crosshair-bl">+</span>
+        <span class="crosshair-br">+</span>
+
+        <div class="section-meta">
+          <span>01 // Focus & Domain</span>
+        </div>
+
+        <h2 class="section-title scramble-target">About & Philosophy</h2>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I am <strong>Akhil Seshan</strong>, a Senior Software Engineer at <strong>FactSet</strong>, based in <strong>Thodupuzha, Kerala</strong>.
+            </p>
+            <p>
+              My engineering focus centers on <strong>Generative AI, Large Language Models (LLMs), and Deep Learning</strong>. Currently, I serve as a core contributor to FactSet's greenfield <em>Portfolio Commentary</em> initiative—integrating LLMs into production Go microservices to generate human-grade financial analysis and power conversational AI assistants.
+            </p>
+            <p>
+              I specialize in end-to-end GenAI reliability: engineering prompt tuning frameworks, continuous evaluation benchmarks, narrative compliance checks, and vector retrieval pipelines using Weaviate and modern semantic protocols (MCP).
+            </p>
+            <p>
+              When I step away from code and neural networks, I am drawn to <strong>travel and photography</strong>. Exploring unfamiliar landscapes and capturing perspectives sharpens my appreciation for composition, visual minimalism, and precision—qualities that directly influence how I design software architectures.
+            </p>
+          </div>
+
+          <div class="specs-card">
+            <div class="specs-header">
+              <span>Engineering Specifications</span>
+              <span>ENG-PROFILE</span>
+            </div>
+            <ul class="specs-list">
+              <li class="specs-row">
+                <span class="specs-label">Current Role</span>
+                <span class="specs-val">Senior Software Engineer</span>
+              </li>
+              <li class="specs-row">
+                <span class="specs-label">Primary Domain</span>
+                <span class="specs-val">Generative AI, LLMs & Systems</span>
+              </li>
+              <li class="specs-row">
+                <span class="specs-label">Organization</span>
+                <span class="specs-val">FactSet</span>
+              </li>
+              <li class="specs-row">
+                <span class="specs-label">Location</span>
+                <span class="specs-val">Thodupuzha, Kerala, India</span>
+              </li>
+              <li class="specs-row">
+                <span class="specs-label">Coordinates</span>
+                <span class="specs-val">9.8959° N, 76.7184° E</span>
+              </li>
+              <li class="specs-row">
+                <span class="specs-label">Core Languages</span>
+                <span class="specs-val">Go, Python, C++, TypeScript</span>
+              </li>
+              <li class="specs-row">
+                <span class="specs-label">Passions</span>
+                <span class="specs-val">Deep Learning, Travel, Photography</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE SECTION -->
+      <section id="experience" class="reveal-on-scroll">
+        <span class="crosshair-tl">+</span>
+        <span class="crosshair-tr">+</span>
+        <span class="crosshair-bl">+</span>
+        <span class="crosshair-br">+</span>
+
+        <div class="section-meta">
+          <span>02 // Professional Timeline</span>
+        </div>
+
+        <h2 class="section-title scramble-target">Work Experience</h2>
+
+        <div class="timeline-stack">
+          
+          <!-- ROLE 1: Senior Software Engineer (GenAI) -->
+          <div class="exp-card">
+            <div class="exp-header">
+              <div>
+                <h3 class="exp-role">Senior Software Engineer</h3>
+                <div class="exp-company">
+                  <i class="fa-solid fa-briefcase"></i> FactSet &bull; Hyderabad, India (Remote / Hybrid)
+                </div>
+              </div>
+              <span class="exp-date">Oct 2024 — Present</span>
+            </div>
+            <p class="exp-body">
+              Core contributor to <strong>Portfolio Commentary</strong>, a greenfield GenAI initiative aimed at generating human-like portfolio insights and building an interactive AI assistant for FactSet's Portfolio Analytics application.
+            </p>
+            <ul class="exp-highlights">
+              <li class="exp-highlight-item">Architected and maintained high-performance Go backend services to integrate LLMs for automated portfolio commentary and interactive AI assistants with 100% service availability</li>
+              <li class="exp-highlight-item">Led prompt tuning pipelines, output reliability testing, automated evaluation frameworks, and narrative alignment with strict financial compliance requirements</li>
+              <li class="exp-highlight-item">Engaged with consultants across the globe to discover and debug issues, and collaborated with product managers to shape roadmap features via 24/7 on-call rotation</li>
+            </ul>
+          </div>
+
+          <!-- ROLE 2: Software Engineer (SPAR & Web Platforms) -->
+          <div class="exp-card">
+            <div class="exp-header">
+              <div>
+                <h3 class="exp-role">Software Engineer</h3>
+                <div class="exp-company">
+                  <i class="fa-solid fa-briefcase"></i> FactSet &bull; Hyderabad, India
+                </div>
+              </div>
+              <span class="exp-date">Sep 2020 — Sep 2024</span>
+            </div>
+            <p class="exp-body">
+              Engineered core features and performance enhancements in the <strong>SPAR (Style, Performance and Risk)</strong> financial analytics platform.
+            </p>
+            <ul class="exp-highlights">
+              <li class="exp-highlight-item">Coded major features in SPAR including interactive drawing tools and conditional formatting with over 90% unit test coverage</li>
+              <li class="exp-highlight-item">Led infrastructural enhancements across team projects, reducing build times by 60%+ and driving the migration of legacy Jenkins CI/CD pipelines to GitHub Actions</li>
+              <li class="exp-highlight-item">Mentored advanced Vue.js and Node.js training for 60+ new engineering hires and conducted one-on-one technical onboarding</li>
+            </ul>
+          </div>
+
+          <!-- ROLE 3: Full-Stack Developer Intern -->
+          <div class="exp-card">
+            <div class="exp-header">
+              <div>
+                <h3 class="exp-role">Full-Stack Software Developer Intern</h3>
+                <div class="exp-company">
+                  <i class="fa-solid fa-briefcase"></i> Fourth Ambit &bull; Kochi, India
+                </div>
+              </div>
+              <span class="exp-date">Jul 2019 — Aug 2019</span>
+            </div>
+            <p class="exp-body">
+              Designed a scalable and maintainable multi-institution web platform from scratch for student information management following strict SDLC principles.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- AWARDS STRIP -->
+        <div style="margin-top: 36px;">
+          <div class="section-meta">
+            <span>Engineering Recognition & Honors</span>
+          </div>
+          <div class="awards-deck">
+            <div class="award-item-card">
+              <div>
+                <span class="award-org">FactSet Engineering</span>
+                <h4 class="award-name">Incredible Award</h4>
+              </div>
+              <span class="award-year">FY 2024</span>
+            </div>
+            <div class="award-item-card">
+              <div>
+                <span class="award-org">FactSet Engineering</span>
+                <h4 class="award-name">Star Award</h4>
+              </div>
+              <span class="award-year">FY 2023 & FY 2022</span>
+            </div>
+            <div class="award-item-card">
+              <div>
+                <span class="award-org">FactSet Engineering</span>
+                <h4 class="award-name">Blue Ribbon Award</h4>
+              </div>
+              <span class="award-year">FY 2021</span>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- PROJECTS BENTO SECTION -->
+      <section id="projects" class="reveal-on-scroll">
+        <span class="crosshair-tl">+</span>
+        <span class="crosshair-tr">+</span>
+        <span class="crosshair-bl">+</span>
+        <span class="crosshair-br">+</span>
+
+        <div class="section-meta">
+          <span>03 // Deep Learning & Engineering Works</span>
+        </div>
+
+        <h2 class="section-title scramble-target">Featured Project</h2>
+
+        <div class="projects-single-showcase">
+          <div class="bento-card card-featured">
+            <div class="bento-card-top">
+              <div class="card-num-meta">
+                <span class="card-index">01 / DEEP LEARNING & COMPUTER VISION</span>
+                <span class="card-category">Open Source Project</span>
+              </div>
+              <h3 class="card-title scramble-target">Personalised Malayalam Font Generator & Handwriting Recognition</h3>
+              <p class="card-desc">
+                Trained an ensemble deep learning pipeline combining ResNet-18 and AlexNet architectures to detect and generate handwritten Malayalam character glyphs with >72% recognition accuracy. Engineered a custom sequence-stitching and dictionary-matching algorithm that boosted full-word prediction accuracy by 50%.
+              </p>
+              
+              <div class="project-metrics-row">
+                <div class="project-metric-tag">
+                  <i class="fa-solid fa-brain"></i> >72% ENSEMBLE CNN RECOGNITION ACCURACY
+                </div>
+                <div class="project-metric-tag">
+                  <i class="fa-solid fa-arrow-trend-up"></i> +50% SEQUENCE-STITCHING WORD ACCURACY BOOST
+                </div>
+              </div>
+            </div>
+
+            <div class="bento-card-bottom">
+              <div class="card-tech-stack">
+                <span class="tech-pill">ResNet-18</span>
+                <span class="tech-pill">AlexNet</span>
+                <span class="tech-pill">PyTorch</span>
+                <span class="tech-pill">OpenCV</span>
+                <span class="tech-pill">FastAI</span>
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">NumPy</span>
+              </div>
+              <a href="https://github.com/akhilseshan/MalayalamHandwritingRecognition" target="_blank" rel="noopener noreferrer" class="btn-swiss-primary" style="align-self: flex-start;">
+                View on GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Secondary GitHub Repositories Banner -->
+          <div class="github-explore-card">
+            <div class="github-explore-info">
+              <i class="fa-brands fa-github github-explore-icon"></i>
+              <div>
+                <h4 class="github-explore-title">Explore Open-Source Repositories</h4>
+                <p class="github-explore-desc">Additional automation scripts, web microservices, and experiments are open-sourced on my profile.</p>
+              </div>
+            </div>
+            <a href="https://github.com/akhilseshan" target="_blank" rel="noopener noreferrer" class="btn-swiss-outline">
+              github.com/akhilseshan <i class="fa-solid fa-arrow-right-long"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS / TECHNICAL ARSENAL SECTION -->
+      <section id="stack" class="reveal-on-scroll">
+        <span class="crosshair-tl">+</span>
+        <span class="crosshair-tr">+</span>
+        <span class="crosshair-bl">+</span>
+        <span class="crosshair-br">+</span>
+
+        <div class="section-meta">
+          <span>04 // Technical Arsenal</span>
+        </div>
+
+        <h2 class="section-title scramble-target">Skills & Capabilities</h2>
+
+        <div class="skills-matrix">
+          
+          <div class="skill-domain-card">
+            <div class="skill-domain-header">
+              <div class="skill-domain-num">01</div>
+              <div>
+                <h3 class="skill-domain-title">Core Languages</h3>
+                <span class="skill-domain-subtitle">Daily production languages & scripting</span>
+              </div>
+            </div>
+            <div class="skill-chips-cluster">
+              <span class="skill-chip primary"><i class="fa-solid fa-code"></i> Go (Golang)</span>
+              <span class="skill-chip primary"><i class="fa-brands fa-python"></i> Python</span>
+              <span class="skill-chip">C++ / C</span>
+              <span class="skill-chip"><i class="fa-brands fa-js"></i> TypeScript</span>
+              <span class="skill-chip">JavaScript (ESNext)</span>
+              <span class="skill-chip"><i class="fa-solid fa-terminal"></i> Bash / Shell</span>
+              <span class="skill-chip">SQL</span>
+            </div>
+          </div>
+
+          <div class="skill-domain-card">
+            <div class="skill-domain-header">
+              <div class="skill-domain-num">02</div>
+              <div>
+                <h3 class="skill-domain-title">Generative AI & Deep Learning</h3>
+                <span class="skill-domain-subtitle">LLM architectures, embeddings & evaluation</span>
+              </div>
+            </div>
+            <div class="skill-chips-cluster">
+              <span class="skill-chip primary"><i class="fa-solid fa-brain"></i> Large Language Models (LLMs)</span>
+              <span class="skill-chip primary">Prompt Tuning & Eval</span>
+              <span class="skill-chip primary">Weaviate (Vector DB)</span>
+              <span class="skill-chip">Model Context Protocol (MCP)</span>
+              <span class="skill-chip">PyTorch</span>
+              <span class="skill-chip">Natural Language Processing</span>
+              <span class="skill-chip">RAG Architectures</span>
+              <span class="skill-chip">OpenCV</span>
+            </div>
+          </div>
+
+          <div class="skill-domain-card">
+            <div class="skill-domain-header">
+              <div class="skill-domain-num">03</div>
+              <div>
+                <h3 class="skill-domain-title">Backend & Systems</h3>
+                <span class="skill-domain-subtitle">Microservices, transport layers & reliability</span>
+              </div>
+            </div>
+            <div class="skill-chips-cluster">
+              <span class="skill-chip primary"><i class="fa-solid fa-server"></i> Go Microservices</span>
+              <span class="skill-chip">High-Availability Systems</span>
+              <span class="skill-chip">gRPC & Protocol Buffers</span>
+              <span class="skill-chip">RESTful APIs</span>
+              <span class="skill-chip"><i class="fa-brands fa-node-js"></i> Node.js & Express</span>
+              <span class="skill-chip">Flask</span>
+            </div>
+          </div>
+
+          <div class="skill-domain-card">
+            <div class="skill-domain-header">
+              <div class="skill-domain-num">04</div>
+              <div>
+                <h3 class="skill-domain-title">Cloud, Data & DevOps</h3>
+                <span class="skill-domain-subtitle">Deployment, storage & pipeline automation</span>
+              </div>
+            </div>
+            <div class="skill-chips-cluster">
+              <span class="skill-chip"><i class="fa-brands fa-aws"></i> AWS Cloud</span>
+              <span class="skill-chip"><i class="fa-brands fa-docker"></i> Docker</span>
+              <span class="skill-chip">Redis</span>
+              <span class="skill-chip">MongoDB</span>
+              <span class="skill-chip">GitHub Actions CI/CD</span>
+              <span class="skill-chip"><i class="fa-brands fa-linux"></i> Linux / Unix</span>
+              <span class="skill-chip"><i class="fa-brands fa-git-alt"></i> Git</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- PASSIONS: TRAVEL & PHOTOGRAPHY -->
+      <section id="perspective" class="reveal-on-scroll">
+        <span class="crosshair-tl">+</span>
+        <span class="crosshair-tr">+</span>
+        <span class="crosshair-bl">+</span>
+        <span class="crosshair-br">+</span>
+
+        <div class="section-meta">
+          <span>05 // Beyond Code</span>
+        </div>
+
+        <h2 class="section-title scramble-target">Travel & Photography</h2>
+
+        <div class="photography-card">
+          <div class="photography-content">
+            <h3 class="photography-title">Exploring Places & Capturing Perspectives</h3>
+            <p class="photography-text">
+              When I'm away from the keyboard, I spend time traveling and taking photos. I've explored diverse landscapes and cultures across India and Europe—from mountain trails and coastal routes to centuries-old European cities and heritage architecture.
+            </p>
+            <p class="photography-text">
+              Carrying a camera helps me slow down, observe different environments, and appreciate natural light, geometric lines, and candid everyday stories wherever I travel.
+            </p>
+          </div>
+
+          <div class="photography-highlights">
+            <div class="photo-highlight-item">
+              <span class="photo-highlight-tag">JOURNEYS</span>
+              <span class="photo-highlight-desc">Explorations across India & Europe</span>
+            </div>
+            <div class="photo-highlight-item">
+              <span class="photo-highlight-tag">LANDSCAPES & TRAILS</span>
+              <span class="photo-highlight-desc">Mountain highways, coastlines & natural terrains</span>
+            </div>
+            <div class="photo-highlight-item">
+              <span class="photo-highlight-tag">STREET & HERITAGE</span>
+              <span class="photo-highlight-desc">Historic architecture, urban textures & candid light</span>
+            </div>
+            <div class="photo-highlight-item">
+              <span class="photo-highlight-tag">HOME BASE</span>
+              <span class="photo-highlight-desc">Thodupuzha, Kerala (9.8959° N, 76.7184° E)</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT & SOCIAL ICONS -->
+      <section id="contact" class="reveal-on-scroll">
+        <span class="crosshair-tl">+</span>
+        <span class="crosshair-tr">+</span>
+        <span class="crosshair-bl">+</span>
+        <span class="crosshair-br">+</span>
+
+        <div class="section-meta">
+          <span>06 // Connect</span>
+        </div>
+
+        <h2 class="section-title scramble-target">Get In Touch</h2>
+
+        <div class="contact-card-centered">
+          <h3 class="contact-headline">Let's connect.</h3>
+          <p class="contact-sub">
+            Whether you want to discuss Generative AI systems, distributed Go backends, or collaborate on a project—feel free to reach out.
+          </p>
+
+          <div class="email-box">
+            <a href="mailto:akhilseshan.mec@gmail.com" class="email-address">akhilseshan.mec@gmail.com</a>
+            <button type="button" class="copy-btn" id="copy-email-btn">Copy Email</button>
+          </div>
+          <div class="copy-feedback" id="copy-feedback">
+            <i class="fa-solid fa-check"></i> Copied to clipboard!
+          </div>
+
+          <div class="social-icons-bar">
+            <a href="https://github.com/akhilseshan/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub Profile" title="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/akhil-seshan/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn Profile" title="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://gitlab.com/akhilseshan/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitLab Profile" title="GitLab">
+              <i class="fa-brands fa-gitlab"></i>
+            </a>
+            <a href="https://twitter.com/seshanakhil/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Twitter / X Profile" title="Twitter / X">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="https://medium.com/@akhil_seshan" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Medium Blog" title="Medium">
+              <i class="fa-brands fa-medium"></i>
+            </a>
+            <a href="mailto:akhilseshan.mec@gmail.com" class="social-icon-btn" aria-label="Send Direct Email" title="Email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
     </main>
 
-    
+    <!-- Footer -->
+    <footer class="swiss-footer">
+      <div>
+        &copy; 2026 Akhil Seshan &bull; Senior Software Engineer @ FactSet &bull; Thodupuzha, Kerala.
+      </div>
+      <ul class="footer-nav">
+        <li><a href="#hero">Top</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#perspective">Visuals</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </footer>
 
-    
+  </div>
 
-    <script>
-(function(f, a, t, h, o, m){
-	a[h]=a[h]||function(){
-		(a[h].q=a[h].q||[]).push(arguments)
-	};
-	o=f.createElement('script'),
-	m=f.getElementsByTagName('script')[0];
-	o.async=1; o.src=t; o.id='fathom-script';
-	m.parentNode.insertBefore(o,m)
-})(document, window, '//analytics.example.com/tracker.js', 'fathom');
-fathom('set', 'siteId', 'ABCDE');
-fathom('trackPageview');
-</script>
+  <!-- COMMAND PALETTE MODAL (Cmd+K) -->
+  <div class="cmd-palette-backdrop" id="cmd-palette-backdrop" role="dialog" aria-modal="true" aria-label="Command Palette">
+    <div class="cmd-palette-window">
+      <div class="cmd-input-row">
+        <i class="fa-solid fa-magnifying-glass cmd-input-icon"></i>
+        <input type="text" class="cmd-input-field" id="cmd-input" placeholder="Type a command or jump to section..." autocomplete="off">
+        <span class="cmd-item-badge">ESC</span>
+      </div>
+      <ul class="cmd-results-list" id="cmd-results-list">
+        <li class="cmd-item selected" data-action="#projects">
+          <div class="cmd-item-left">
+            <i class="fa-solid fa-brain cmd-item-icon"></i>
+            <span class="cmd-item-label">Jump to Deep Learning Projects</span>
+          </div>
+          <span class="cmd-item-badge">03 // PROJECTS</span>
+        </li>
+        <li class="cmd-item" data-action="#experience">
+          <div class="cmd-item-left">
+            <i class="fa-solid fa-briefcase cmd-item-icon"></i>
+            <span class="cmd-item-label">Jump to Experience Timeline</span>
+          </div>
+          <span class="cmd-item-badge">02 // EXP</span>
+        </li>
+        <li class="cmd-item" data-action="#about">
+          <div class="cmd-item-left">
+            <i class="fa-solid fa-user cmd-item-icon"></i>
+            <span class="cmd-item-label">Jump to About & Philosophy</span>
+          </div>
+          <span class="cmd-item-badge">01 // ABOUT</span>
+        </li>
+        <li class="cmd-item" data-action="#stack">
+          <div class="cmd-item-left">
+            <i class="fa-solid fa-layer-group cmd-item-icon"></i>
+            <span class="cmd-item-label">View Technical Arsenal & LLM Stack</span>
+          </div>
+          <span class="cmd-item-badge">04 // STACK</span>
+        </li>
+        <li class="cmd-item" data-action="#perspective">
+          <div class="cmd-item-left">
+            <i class="fa-solid fa-camera cmd-item-icon"></i>
+            <span class="cmd-item-label">Travel & Photography</span>
+          </div>
+          <span class="cmd-item-badge">05 // VISUALS</span>
+        </li>
+        <li class="cmd-item" data-action="#contact">
+          <div class="cmd-item-left">
+            <i class="fa-solid fa-envelope cmd-item-icon"></i>
+            <span class="cmd-item-label">Initiate Contact</span>
+          </div>
+          <span class="cmd-item-badge">06 // CONTACT</span>
+        </li>
+        <li class="cmd-item" data-action="https://www.linkedin.com/in/akhil-seshan/">
+          <div class="cmd-item-left">
+            <i class="fa-brands fa-linkedin cmd-item-icon"></i>
+            <span class="cmd-item-label">Open LinkedIn Profile</span>
+          </div>
+          <span class="cmd-item-badge">LINKEDIN</span>
+        </li>
+        <li class="cmd-item" data-action="copy-email">
+          <div class="cmd-item-left">
+            <i class="fa-solid fa-copy cmd-item-icon"></i>
+            <span class="cmd-item-label">Copy Email Address</span>
+          </div>
+          <span class="cmd-item-badge">CLIPBOARD</span>
+        </li>
+        <li class="cmd-item" data-action="toggle-audio">
+          <div class="cmd-item-left">
+            <i class="fa-solid fa-volume-high cmd-item-icon"></i>
+            <span class="cmd-item-label">Toggle Mechanical Sound Effects</span>
+          </div>
+          <span class="cmd-item-badge">AUDIO</span>
+        </li>
+        <li class="cmd-item" data-action="toggle-particles">
+          <div class="cmd-item-left">
+            <i class="fa-solid fa-atom cmd-item-icon"></i>
+            <span class="cmd-item-label">Boost Particle Gravity Drift (3x Speed)</span>
+          </div>
+          <span class="cmd-item-badge">PHYSICS</span>
+        </li>
+        <li class="cmd-item" data-action="https://github.com/akhilseshan">
+          <div class="cmd-item-left">
+            <i class="fa-brands fa-github cmd-item-icon"></i>
+            <span class="cmd-item-label">Open GitHub Profile in new tab</span>
+          </div>
+          <span class="cmd-item-badge">EXTERNAL</span>
+        </li>
+      </ul>
+      <div class="cmd-palette-footer">
+        <div class="cmd-footer-shortcuts">
+          <span>&uarr; &darr; navigate</span>
+          <span>&crarr; select</span>
+        </div>
+        <span>ESC to dismiss</span>
+      </div>
+    </div>
+  </div>
 
-
-  </body>
-
+  <!-- Interactive JavaScript -->
+  <script src="js/swiss.js"></script>
+</body>
 </html>

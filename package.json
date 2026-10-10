@@ -1,0 +1,19 @@
+{
+  "name": "akhilseshan.github.io",
+  "version": "2.0.0",
+  "description": "Akhil Seshan — Software Engineer Portfolio (Swiss Neo-Minimal Antigravity Edition)",
+  "scripts": {
+    "dev": "python3 -m http.server 8080 --bind 0.0.0.0",
+    "validate": "node -c js/swiss.js"
+  },
+  "keywords": [
+    "portfolio",
+    "software-engineer",
+    "factset",
+    "swiss-design",
+    "antigravity",
+    "motion-graphics"
+  ],
+  "author": "Akhil Seshan",
+  "license": "MIT"
+}
