@@ -33,6 +33,16 @@ export interface Award {
   year: string;
 }
 
+export interface Education {
+  degree: string;
+  field: string;
+  institution: string;
+  location: string;
+  period: string;
+  gpa: string;
+  summary: string;
+}
+
 export const PORTFOLIO_DATA = {
   profile: {
     name: "Akhil Seshan",
@@ -87,6 +97,18 @@ export const PORTFOLIO_DATA = {
       ]
     }
   ] as Experience[],
+
+  education: [
+    {
+      degree: "Bachelor of Technology (B.Tech)",
+      field: "Computer Science and Engineering",
+      institution: "Govt. Model Engineering College (MEC)",
+      location: "Kochi, Kerala",
+      period: "2016 — 2020",
+      gpa: "8.06 / 10.0",
+      summary: "Rigorous computer science curriculum covering data structures, algorithms, operating systems, compiler design, distributed systems, and deep learning."
+    }
+  ] as Education[],
 
   awards: [
     { title: "Incredible Award", organization: "FactSet", year: "FY 2024" },
