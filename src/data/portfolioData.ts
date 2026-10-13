@@ -57,7 +57,7 @@ export const PORTFOLIO_DATA = {
   },
 
   interests: {
-    professional: ["Generative AI & LLMs", "Natural Language Processing", "Deep Learning", "High-Performance Go Systems", "Vector Search & Retrieval"],
+    professional: ["Generative AI & LLMs", "Model Context Protocol (MCP)", "Agent-to-Agent (A2A) Protocols", "Natural Language Processing", "Deep Learning", "High-Performance Go Systems", "Vector Search & Retrieval"],
     personal: ["Travel & Exploration", "Landscape & Street Photography", "Visual Composition"]
   },
 
@@ -152,7 +152,7 @@ export const PORTFOLIO_DATA = {
 
   skills: {
     languages: ["Go", "Python", "C++", "TypeScript", "JavaScript", "C", "Bash", "SQL"],
-    ai_and_ml: ["Large Language Models (LLMs)", "Generative AI", "Prompt Engineering & Tuning", "NLP", "Deep Learning", "Weaviate (Vector DB)", "Model Context Protocol (MCP)", "PyTorch"],
+    ai_and_ml: ["Large Language Models (LLMs)", "Generative AI", "Prompt Engineering & Tuning", "Model Context Protocol (MCP)", "Agent-to-Agent (A2A) Protocols", "NLP", "Deep Learning", "Weaviate (Vector DB)", "PyTorch"],
     frameworks_backend: ["Go Microservices", "gRPC", "Node.js", "Express.js", "Vue.js", "React.js", "Flask", "REST APIs"],
     cloud_devops: ["AWS", "Docker", "GitHub Actions", "Redis", "MongoDB", "Vite", "ESBuild", "CI/CD Automation", "Linux"]
   },
